@@ -1,0 +1,19 @@
+# Use uma imagem base com Ubuntu (ou outra imagem que suporte interface gráfica)
+FROM ubuntu:20.04
+
+# Defina DEBIAN_FRONTEND para noninteractive para evitar interação durante a instalação
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN echo 'alias sqldeveloper="/opt/sqldeveloper/sqldeveloper/sqldeveloper.sh"'
+
+RUN apt-get update && \
+    apt-get install -y openjdk-11-jdk libxext-dev libxrender-dev libxtst-dev wget unzip && \
+    rm -rf /var/lib/apt/lists/*
+
+# Baixe o arquivo ZIP do SQL Developer diretamente no contêiner
+COPY sql_developer/sqldeveloper-23.1.0.097.1607-no-jre.zip /tmp/sqldeveloper.zip
+
+# Descompacte o ZIP e mova para o diretório de instalação
+RUN unzip /tmp/sqldeveloper.zip -d /opt/sqldeveloper
+
+
