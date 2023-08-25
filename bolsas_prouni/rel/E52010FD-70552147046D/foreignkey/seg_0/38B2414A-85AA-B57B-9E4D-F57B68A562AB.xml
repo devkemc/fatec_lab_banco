@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="38B2414A-85AA-B57B-9E4D-F57B68A562AB" containerWithKeyObject="DA2623F3-0481-F43B-A994-0CD053FAA2DD" localFKIndex="2F490C25-27E6-F764-4C99-F1629DF563D6" name="MUNICIPIOS_UFS_FK">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 23:10:44 UTC</createdTime>
+<ownerDesignName>BOLSAS_PROUNI</ownerDesignName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>66BB253B-6CDB-9AB6-22BC-0C0C157B871E</referredTableID>
+<keyObject>D5C0CD02-3D6A-5173-BF4E-886BBEAEABB7</keyObject>
+<referredKeyID>D5C0CD02-3D6A-5173-BF4E-886BBEAEABB7</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

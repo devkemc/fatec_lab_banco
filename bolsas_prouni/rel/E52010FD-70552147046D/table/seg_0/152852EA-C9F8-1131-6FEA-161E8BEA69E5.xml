@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="152852EA-C9F8-1131-6FEA-161E8BEA69E5" name="BOLSAS">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-25 00:18:42 UTC</createdTime>
+<ownerDesignName>BOLSAS_PROUNI</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bsl_id" id="1D79B594-8AF7-DD6B-BB47-186C684D3868">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-25 00:20:55 UTC</createdTime>
+<ownerDesignName>BOLSAS_PROUNI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bsl_ano" id="4F0C6390-3865-13BB-D068-7F4D747D4A14">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-25 00:20:55 UTC</createdTime>
+<ownerDesignName>BOLSAS_PROUNI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bsl_crs_id" id="F388F26E-9F9F-2E5C-F7E8-FA2E632FD14C">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-25 00:20:55 UTC</createdTime>
+<ownerDesignName>BOLSAS_PROUNI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80A6226D-D576-27F5-BD6E-5FCA1334AF54" referredColumn="A74751F9-DCED-ED30-AF51-68841E7D3FAB"/>
+</associations>
+</Column>
+<Column name="bsl_ite_id" id="F7F7030F-643D-B48F-27B5-6C1410163E0B">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-25 00:20:55 UTC</createdTime>
+<ownerDesignName>BOLSAS_PROUNI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="257BB843-37D9-585E-91D8-97E79E3C1D3C" referredColumn="34FE1804-5996-CE0C-32DB-DDECE35345D8"/>
+</associations>
+</Column>
+<Column name="bsl_bfn_id" id="8156C6C4-6E41-80A3-B689-47D938EAA427">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-25 00:22:56 UTC</createdTime>
+<ownerDesignName>BOLSAS_PROUNI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20671D6C-1A31-E77F-10D9-1DB687CE8864" referredColumn="9B102A49-4B20-4317-BB2D-E48040219105"/>
+</associations>
+</Column>
+<Column name="bsl_tpb_id" id="E51481E1-D383-06A7-C02A-8099401BEDA4">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-25 00:27:43 UTC</createdTime>
+<ownerDesignName>BOLSAS_PROUNI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69048975-09C2-40B7-A081-E8A44875B2D7" referredColumn="6EEAD0E4-AFA4-EB56-BA85-90C8BC07E48F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69A8C33B-2EB6-900D-0151-B44630DE670C" name="BOLSAS_PK">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-25 00:20:55 UTC</createdTime>
+<ownerDesignName>BOLSAS_PROUNI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D79B594-8AF7-DD6B-BB47-186C684D3868"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D66A68FF-7D4A-9E17-0D44-D48F020AD446" name="BOLSAS_INSTITUICOES_ENSINO_FK">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-25 00:22:56 UTC</createdTime>
+<ownerDesignName>BOLSAS_PROUNI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7F7030F-643D-B48F-27B5-6C1410163E0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B8BD467B-A95D-05FF-7211-5D655C7C90E6" name="BOLSAS_CURSOS_FK">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-25 00:25:08 UTC</createdTime>
+<ownerDesignName>BOLSAS_PROUNI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F388F26E-9F9F-2E5C-F7E8-FA2E632FD14C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5999F37-CEC7-8075-7CF5-A3FEB65E408E" name="BOLSAS_BENEFICIARIOS_FK">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-25 00:25:51 UTC</createdTime>
+<ownerDesignName>BOLSAS_PROUNI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8156C6C4-6E41-80A3-B689-47D938EAA427"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BC3D7B3-DE2B-B328-EEB2-8E3EC414ADF0" name="BOLSAS_TIPOS_BOLSA_FK">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-25 00:27:43 UTC</createdTime>
+<ownerDesignName>BOLSAS_PROUNI</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E51481E1-D383-06A7-C02A-8099401BEDA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB3A7BB6-E73C-2ABC-35A9-1598C28E0CFB" name="REGIOES">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 23:02:13 UTC</createdTime>
+<ownerDesignName>BOLSAS_PROUNI</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rgs_id" id="5B76818E-7607-9535-B034-424AE5797465">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 23:03:33 UTC</createdTime>
+<ownerDesignName>BOLSAS_PROUNI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rgs_nome" id="AE8C2810-74A4-2156-2B52-7A4F9E52F9F5">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 23:03:33 UTC</createdTime>
+<ownerDesignName>BOLSAS_PROUNI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84C99612-FE5E-1294-0A2F-1502A0EA245E" name="REGIOES_PK">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 23:03:42 UTC</createdTime>
+<ownerDesignName>BOLSAS_PROUNI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B76818E-7607-9535-B034-424AE5797465"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

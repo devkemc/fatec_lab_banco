@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CCD984B-8DF5-8FED-245C-DCBCC50F538F" name="TIPOS_BOLSA">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 22:57:35 UTC</createdTime>
+<ownerDesignName>BOLSAS_PROUNI</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tpb_id" id="6EEAD0E4-AFA4-EB56-BA85-90C8BC07E48F">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 22:59:22 UTC</createdTime>
+<ownerDesignName>BOLSAS_PROUNI</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tpb_nome" id="E91B93C9-4314-51A6-923C-FDFF48768CF0">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 22:59:22 UTC</createdTime>
+<ownerDesignName>BOLSAS_PROUNI</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09DEE3AD-0DD6-D9AC-1A4A-68708AE06DBD" name="TIPOS_BOLSAAS_PK">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 22:59:22 UTC</createdTime>
+<ownerDesignName>BOLSAS_PROUNI</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EEAD0E4-AFA4-EB56-BA85-90C8BC07E48F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
