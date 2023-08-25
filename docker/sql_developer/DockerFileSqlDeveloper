@@ -12,6 +12,7 @@ RUN apt-get update && \
 
 # Baixe o arquivo ZIP do SQL Developer diretamente no contêiner
 COPY sql_developer/sqldeveloper-23.1.0.097.1607-no-jre.zip /tmp/sqldeveloper.zip
+COPY sql_developer/prouni_2005_2019.csv /prouni_2005_2019.csv
 
 # Descompacte o ZIP e mova para o diretório de instalação
 RUN unzip /tmp/sqldeveloper.zip -d /opt/sqldeveloper
