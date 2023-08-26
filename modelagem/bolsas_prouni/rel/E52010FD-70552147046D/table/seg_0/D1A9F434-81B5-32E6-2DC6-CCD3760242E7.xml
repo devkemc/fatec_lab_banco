@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1A9F434-81B5-32E6-2DC6-CCD3760242E7" name="SEXOS">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 23:13:25 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sex_id" id="A8E5CFB4-CDC9-1FB8-A032-55A61F521FE6">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 23:14:42 UTC</createdTime>
+<commentInRDBMS>Armazena identifcador unico de sexos</commentInRDBMS>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sex_letra" id="AE0BDC6F-505F-F82D-7DCF-50B4EDBA8298">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 23:14:42 UTC</createdTime>
+<commentInRDBMS>Armazena a letra que identifica o sexo</commentInRDBMS>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC4A414C-1311-87F4-00C6-71C646FAC725" name="SEX_PK">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 23:14:42 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8E5CFB4-CDC9-1FB8-A032-55A61F521FE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

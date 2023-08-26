@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66BB253B-6CDB-9AB6-22BC-0C0C157B871E" name="UFS">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 23:03:45 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ufs_id" id="2278978B-A377-3F23-07ED-A738752A8A30">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 23:04:36 UTC</createdTime>
+<commentInRDBMS>Armazena identificador unico da uf</commentInRDBMS>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ufs_sigla" id="47857DAE-F186-63B5-0C1C-9E475217C194">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 23:04:36 UTC</createdTime>
+<commentInRDBMS>Armazena a sigla da uf</commentInRDBMS>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ufs_rgs_id" id="2D37B201-5D81-1B3B-AF69-325106E6702F">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 23:07:34 UTC</createdTime>
+<commentInRDBMS>Armazena o identifcador unico da regiao a qual a uf pertence</commentInRDBMS>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1DC5A69-9224-0D7A-618D-D1413E1047D6" referredColumn="5B76818E-7607-9535-B034-424AE5797465"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D5C0CD02-3D6A-5173-BF4E-886BBEAEABB7" name="UFS_PK">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 23:04:43 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2278978B-A377-3F23-07ED-A738752A8A30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A06C8C5-6AF1-E6B7-F9EB-99DA04372B44" name="UFS_RGS_FK">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 23:09:03 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2D37B201-5D81-1B3B-AF69-325106E6702F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

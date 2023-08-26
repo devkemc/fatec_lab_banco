@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D28B99F2-D9E0-D519-2BC8-93561DA91B13" name="MODALIDADES">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 22:59:26 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mdl_id" id="095FCB52-406D-C463-CA84-450457AB1192">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 23:01:57 UTC</createdTime>
+<commentInRDBMS>Armazena identificador unico da modalidade do curso</commentInRDBMS>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mdl_nome" id="560D1B39-2E76-027B-06C4-C7D599BEFAB7">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 23:01:57 UTC</createdTime>
+<commentInRDBMS>Armazena nome da modalidade de curso</commentInRDBMS>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D433ACC0-8CB1-37FF-211A-6B8FEF0D909A" name="MDL_PK">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-24 23:01:57 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="095FCB52-406D-C463-CA84-450457AB1192"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE535D45-AFAB-28B8-9771-CCEC95B96B1D" name="INSTITUICOES_ENSINO">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-25 00:12:52 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ite_id" id="34FE1804-5996-CE0C-32DB-DDECE35345D8">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-25 00:14:29 UTC</createdTime>
+<commentInRDBMS>Armazena identificador unico da instituicao de ensino</commentInRDBMS>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ite_nome" id="5759CE76-0D36-ABC6-D776-00FFF18399BD">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-25 00:14:29 UTC</createdTime>
+<commentInRDBMS>Armazena nome da instituicao de ensino</commentInRDBMS>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C86BC10-0325-300E-3295-A29AE98E1752" name="ITE_PK">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-08-25 00:14:29 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34FE1804-5996-CE0C-32DB-DDECE35345D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
