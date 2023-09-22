@@ -39,7 +39,7 @@ BEGIN
     UPSET_MODALIDADES(DADO.MODALIDADE_ENSINO_BOLSA, id_modalidade);
     UPSET_TURNOS(DADO.NOME_TURNO_CURSO_BOLSA, id_turno_curso);
 
-    IF id_modalidade IS NOT NULL AND id_turno_curso IS NULL NOT THEN
+    IF id_modalidade IS NOT NULL AND id_turno_curso IS NOT NULL THEN
         UPSET_CURSOS(DADO.NOME_CURSO_BOLSA, id_modalidade, id_turno_curso, id_curso);
     END IF;
     -- INSERÇÃO CURSO
@@ -50,7 +50,7 @@ BEGIN
 
     -- INSERÇÃO BOLSA
     UPSET_TIPOS_BOLSA(DADO.TIPO_BOLSA, id_tipo_bolsa);
-    IF id_curso IS NULL OR id_insituicao_ensino IS NULL OR id_beneficiario IS NULL OR id_tipo_bolsa THEN
+    IF id_curso IS NULL OR id_insituicao_ensino IS NULL OR id_beneficiario IS NULL OR id_tipo_bolsa IS NOT NULL THEN
         CONTINUE;
     END IF;
     UPSET_BOLSAS(DADO.ANO_CONCESSAO_BOLSA, id_curso, id_insituicao_ensino, id_beneficiario, id_tipo_bolsa);
