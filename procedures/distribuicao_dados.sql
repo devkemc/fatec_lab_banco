@@ -50,7 +50,7 @@ BEGIN
 
     -- INSERÇÃO BOLSA
     UPSET_TIPOS_BOLSA(DADO.TIPO_BOLSA, id_tipo_bolsa);
-    IF id_curso IS NULL OR id_insituicao_ensino IS NULL OR id_beneficiario IS NULL OR id_tipo_bolsa IS NOT NULL THEN
+    IF id_curso IS NULL OR id_insituicao_ensino IS NULL OR id_beneficiario IS NULL OR id_tipo_bolsa IS NULL THEN
         CONTINUE;
     END IF;
     UPSET_BOLSAS(DADO.ANO_CONCESSAO_BOLSA, id_curso, id_insituicao_ensino, id_beneficiario, id_tipo_bolsa);
