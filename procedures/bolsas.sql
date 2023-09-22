@@ -11,7 +11,7 @@ BEGIN
     SELECT  COUNT(*) INTO v_count 
     FROM    bolsas 
     WHERE   bsl_crs_id = id_curso
-        AND bsl_bfn_id = id_beneficiario
+        AND bsl_bnf_id = id_beneficiario
         AND bsl_ano = b_ano
         AND bsl_ite_id = id_intituicao_ensino
         AND bsl_tpb_id = id_tipo_bolsa;
@@ -19,7 +19,7 @@ BEGIN
         INSERT INTO bolsas (bsl_ano
                         ,   bsl_crs_id
                         ,   bsl_ite_id
-                        ,   bsl_bfn_id
+                        ,   bsl_bnf_id
                         ,   bsl_tpb_id) 
                     VALUES (b_ano
                         ,   id_curso

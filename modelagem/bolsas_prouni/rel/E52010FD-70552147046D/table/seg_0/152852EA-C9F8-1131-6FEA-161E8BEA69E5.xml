@@ -27,7 +27,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -59,7 +59,7 @@
 <colAssociation fkAssociation="257BB843-37D9-585E-91D8-97E79E3C1D3C" referredColumn="34FE1804-5996-CE0C-32DB-DDECE35345D8"/>
 </associations>
 </Column>
-<Column name="bsl_bfn_id" id="8156C6C4-6E41-80A3-B689-47D938EAA427">
+<Column name="bsl_bnf_id" id="8156C6C4-6E41-80A3-B689-47D938EAA427">
 <createdBy>kennedy</createdBy>
 <createdTime>2023-08-25 00:22:56 UTC</createdTime>
 <commentInRDBMS>Armazena o identificador unico do beneficiario da bolsa</commentInRDBMS>
@@ -120,7 +120,7 @@
 <colUsage columnID="F388F26E-9F9F-2E5C-F7E8-FA2E632FD14C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C5999F37-CEC7-8075-7CF5-A3FEB65E408E" name="BSL_BBF_FK">
+<ind_PK_UK id="C5999F37-CEC7-8075-7CF5-A3FEB65E408E" name="BSL_BNF_FK">
 <createdBy>kennedy</createdBy>
 <createdTime>2023-08-25 00:25:51 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
