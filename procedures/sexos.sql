@@ -1,5 +1,5 @@
 CREATE OR REPLACE NONEDITIONABLE PROCEDURE "APP_LAB"."UPSET_SEXOS"(
-    s_letra VARCHAR2,
+    s_letra CHAR,
     id_sexo OUT INTEGER
 ) AS    v_count integer;
 BEGIN
