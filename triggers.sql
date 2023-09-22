@@ -5,7 +5,7 @@ INSERT
 
 END;
 
-/ ALTER TRIGGER "APP_LAB"."TG_SEQ_BFN" ENABLE;
+/ ALTER TRIGGER "APP_LAB"."TG_SEQ_BNF" ENABLE;
 
 --------------------------------------------------------
 --  DDL for Trigger TG_SEQ_BFN trigger para criar o id do BENEFICIARIO de acordo com a sequence
