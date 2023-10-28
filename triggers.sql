@@ -5,6 +5,7 @@ INSERT
 
 END;
 
+
 / ALTER TRIGGER "APP_LAB"."TG_SEQ_BNF" ENABLE;
 
 --------------------------------------------------------
@@ -58,12 +59,12 @@ END;
 --------------------------------------------------------
 --  DDL for Trigger TG_SEQ_MDL trigger para criar o id da MODALIDADE de acordo com a sequence
 --------------------------------------------------------
-CREATE
-OR REPLACE NONEDITIONABLE TRIGGER "APP_LAB"."TG_SEQ_TRN" BEFORE
-INSERT
-    ON TURNOS_CURSO FOR EACH ROW BEGIN :NEW.trn_id := seq_trn.nextval;
+    CREATE
+    OR REPLACE NONEDITIONABLE TRIGGER "APP_LAB"."TG_SEQ_TRN" BEFORE
+    INSERT
+        ON TURNOS_CURSO FOR EACH ROW BEGIN :NEW.trn_id := seq_trn.nextval;
 
-END;
+    END;
 
 / ALTER TRIGGER "APP_LAB"."TG_SEQ_TRN" ENABLE;
 

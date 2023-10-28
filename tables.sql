@@ -107,7 +107,9 @@ ALTER TABLE INSTITUICOES_ENSINO ADD CONSTRAINT ITE_PK PRIMARY KEY ( ite_id ) ;
 
 
 CREATE TABLE MODALIDADES
-  ( mdl_id NUMBER NOT NULL , mdl_nome VARCHAR2 (50)
+  ( 
+    mdl_id NUMBER NOT NULL , 
+    mdl_nome VARCHAR2 (50)
   ) ;
 COMMENT ON COLUMN MODALIDADES.mdl_id
 IS
@@ -137,11 +139,13 @@ ALTER TABLE MUNICIPIOS ADD CONSTRAINT MUN_PK PRIMARY KEY ( mun_id ) ;
 
 
 CREATE TABLE RACAS
-  ( rcs_id NUMBER NOT NULL , rcs_nome VARCHAR2 (10)
+  ( 
+    rcs_id NUMBER NOT NULL , 
+    rcs_nome VARCHAR2 (10)
   ) ;
 COMMENT ON COLUMN RACAS.rcs_id
 IS
-  'armazena identificador unico de regioes' ;
+  'Armazena identificador unico de racas' ;
   COMMENT ON COLUMN RACAS.rcs_nome
 IS
   'Armazena nome da raca cadastrada' ;
