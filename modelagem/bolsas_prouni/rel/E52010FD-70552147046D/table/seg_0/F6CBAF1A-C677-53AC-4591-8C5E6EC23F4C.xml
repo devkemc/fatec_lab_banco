@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6CBAF1A-C677-53AC-4591-8C5E6EC23F4C" name="HMUNICIPIOS">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:16:24 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="hmun_id" id="452A49CE-D896-6E30-C8AA-2C0874484514">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:17:33 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hmun_nome" id="C3C00469-059A-50E2-0CA8-F9004C28AD74">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:17:33 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hmun_ufs_id" id="127D83CB-C92F-0EE9-2A90-06DD5DEFD8B6">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:17:33 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hmun_dt_entrada" id="238F9D5A-959E-94A5-BAD4-AAA3D2CA6221">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:17:33 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MUNICIPIOS_mun_id" id="2C205A6F-8730-3694-993E-FB44FE4000DC">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:58:42 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7DD4E55-B5EE-384F-4EF2-721AE6FACD1C" referredColumn="E729F594-79E5-6867-78FC-A19F4BB1007D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD56BE6B-0344-73E2-74CB-5D0F19517AFF" name="HMUNICIPIOS_PK">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:17:33 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="452A49CE-D896-6E30-C8AA-2C0874484514"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="601CE2AA-FC99-07F2-BF1D-BBA63F76773A" name="HMUNICIPIOS_MUNICIPIOS_FK">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:58:42 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C205A6F-8730-3694-993E-FB44FE4000DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

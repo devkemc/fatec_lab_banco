@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0EC1BB91-4347-B797-D880-17DE2D0A780F" containerWithKeyObject="527FB43F-D3EC-DC9C-91E7-C52369610630" localFKIndex="DDF6ECA0-28BE-A6F6-8014-204A0E14B147" name="HTURNOS_CURSO_TURNOS_CURSO_FK">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:59:13 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<referredTableLongName>TURNOS_CURSO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9FD7E729-B2F9-CDFA-4A4B-BED177547885</referredTableID>
+<keyObject>78D7B41C-EF94-3B1E-468B-F78874C3AA0D</keyObject>
+<referredKeyID>78D7B41C-EF94-3B1E-468B-F78874C3AA0D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>trn_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

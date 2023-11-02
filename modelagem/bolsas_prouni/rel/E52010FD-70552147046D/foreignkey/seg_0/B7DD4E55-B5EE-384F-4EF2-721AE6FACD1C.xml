@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B7DD4E55-B5EE-384F-4EF2-721AE6FACD1C" containerWithKeyObject="F6CBAF1A-C677-53AC-4591-8C5E6EC23F4C" localFKIndex="601CE2AA-FC99-07F2-BF1D-BBA63F76773A" name="HMUNICIPIOS_MUNICIPIOS_FK">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:58:42 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<referredTableLongName>MUNICIPIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DA2623F3-0481-F43B-A994-0CD053FAA2DD</referredTableID>
+<keyObject>C3B69539-BA46-A683-AAF5-96C02434C00F</keyObject>
+<referredKeyID>C3B69539-BA46-A683-AAF5-96C02434C00F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>mun_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

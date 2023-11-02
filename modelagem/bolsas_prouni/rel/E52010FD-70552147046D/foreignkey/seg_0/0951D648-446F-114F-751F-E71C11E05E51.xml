@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0951D648-446F-114F-751F-E71C11E05E51" containerWithKeyObject="33AEFDB9-1DAE-D10E-D4D7-71C075949F47" localFKIndex="A6906B77-F9A6-2BE2-51C5-0998514658C4" name="HBOLSAS_BOLSAS_FK">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:59:30 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<referredTableLongName>BOLSAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>152852EA-C9F8-1131-6FEA-161E8BEA69E5</referredTableID>
+<keyObject>69A8C33B-2EB6-900D-0151-B44630DE670C</keyObject>
+<referredKeyID>69A8C33B-2EB6-900D-0151-B44630DE670C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>bsl_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

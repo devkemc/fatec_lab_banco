@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="091BB492-AAF8-8055-4BAC-1CAEE51BF733" containerWithKeyObject="BC960033-AAD0-3DC8-CE0B-7C72712F0EE4" localFKIndex="46FFA93E-E29D-4D28-1B11-607A6C2286E7" name="HMODALIDADES_MODALIDADES_FK">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:59:19 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<referredTableLongName>MODALIDADES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D28B99F2-D9E0-D519-2BC8-93561DA91B13</referredTableID>
+<keyObject>D433ACC0-8CB1-37FF-211A-6B8FEF0D909A</keyObject>
+<referredKeyID>D433ACC0-8CB1-37FF-211A-6B8FEF0D909A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>mdl_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

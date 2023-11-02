@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D8118764-9B75-38AA-6038-D3DB90EF2EBE" containerWithKeyObject="919AE2C2-6FA1-A563-B86B-F3C3FF5FA7F4" localFKIndex="405CB3BF-7256-1E53-6548-539972638BAD" name="HUFS_UFS_FK">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:58:54 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<referredTableLongName>UFS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>66BB253B-6CDB-9AB6-22BC-0C0C157B871E</referredTableID>
+<keyObject>D5C0CD02-3D6A-5173-BF4E-886BBEAEABB7</keyObject>
+<referredKeyID>D5C0CD02-3D6A-5173-BF4E-886BBEAEABB7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ufs_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

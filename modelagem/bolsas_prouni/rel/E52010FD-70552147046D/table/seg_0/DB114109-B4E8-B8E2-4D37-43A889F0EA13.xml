@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB114109-B4E8-B8E2-4D37-43A889F0EA13" name="HTIPOS_BOLSA">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:21:56 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<ordsAlias>table_35</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="htpb_id" id="68F59CC0-84D7-B278-F79A-E9E7C0391CA5">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:23:02 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="htpb_nome" id="798797CB-A393-A45C-3A53-02E5D0A8657A">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:23:02 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="htpb_dt_entrada" id="24A091A7-C7B8-3547-00EC-EFEB2D7FB1CC">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:23:02 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPOS_BOLSA_tpb_id" id="6B59FFBC-6EF1-CE0A-D2CD-C9FBB6381ABF">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:59:41 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF9B376A-C4E1-7927-A4BB-1619A263758E" referredColumn="6EEAD0E4-AFA4-EB56-BA85-90C8BC07E48F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47D167C3-7BDD-3B1B-C69A-A3FC56F478A4" name="HTIPOS_BOLSA_PK">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:23:02 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68F59CC0-84D7-B278-F79A-E9E7C0391CA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64E61DED-CEA8-A0AF-9085-A9091E91C4EC" name="HTIPOS_BOLSA_TIPOS_BOLSA_FK">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:59:41 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B59FFBC-6EF1-CE0A-D2CD-C9FBB6381ABF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

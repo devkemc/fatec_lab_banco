@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="830E6896-7119-9335-FCA2-41817F571DBA" name="HREGIOES">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:18:53 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<ordsAlias>table_33</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="hrgs_id" id="E973BD5F-080E-5989-1F6D-A01667EF6CAF">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:19:57 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hrgs_nome" id="6F3A6C3B-3772-0D43-F6CE-B3F1BE7B1C79">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:19:57 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hrgs_dt_entrada" id="E42F7180-3CB0-8B93-833C-E9EEEA2C6B2E">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:19:57 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGIOES_rgs_id" id="7D53670D-FBC7-C38E-CEA4-7A545D4D145C">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:59:07 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2D82361-8007-E0F6-3483-E3F77BA0E3F4" referredColumn="5B76818E-7607-9535-B034-424AE5797465"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1660560E-822C-3574-4E26-FA5AE57FFC33" name="HREGIOES_PK">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:19:57 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E973BD5F-080E-5989-1F6D-A01667EF6CAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFF327D4-9B99-E2CC-C9B5-12E1EA72904A" name="HREGIOES_REGIOES_FK">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:59:07 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D53670D-FBC7-C38E-CEA4-7A545D4D145C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
