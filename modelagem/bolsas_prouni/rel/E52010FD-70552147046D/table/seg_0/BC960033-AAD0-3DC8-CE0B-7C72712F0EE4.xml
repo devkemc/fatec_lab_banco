@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="hmdl_id" id="156B4064-7967-0B12-D21B-D4EFE68AF4AE">
+<Column name="mdl_id" id="156B4064-7967-0B12-D21B-D4EFE68AF4AE">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:16:13 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hmdl_nome" id="D9E89874-A3FB-15CE-7805-CC20004D9AA9">
+<Column name="mdl_nome" id="D9E89874-A3FB-15CE-7805-CC20004D9AA9">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:16:13 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -30,30 +30,15 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hmdl_dt_entrada" id="1DC71B76-9FC1-174C-E232-2E1D0E4470D6">
+<Column name="mdl_dt_hist" id="1DC71B76-9FC1-174C-E232-2E1D0E4470D6">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:16:13 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="MODALIDADES_mdl_id" id="409E2A65-D8A1-D599-1D3C-599FE82FBE84">
-<createdBy>felip</createdBy>
-<createdTime>2023-10-29 22:59:19 UTC</createdTime>
-<ownerDesignName>bolsas_prouni</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="091BB492-AAF8-8055-4BAC-1CAEE51BF733" referredColumn="095FCB52-406D-C463-CA84-450457AB1192"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -66,16 +51,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="156B4064-7967-0B12-D21B-D4EFE68AF4AE"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="46FFA93E-E29D-4D28-1B11-607A6C2286E7" name="HMODALIDADES_MODALIDADES_FK">
-<createdBy>felip</createdBy>
-<createdTime>2023-10-29 22:59:19 UTC</createdTime>
-<ownerDesignName>bolsas_prouni</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="409E2A65-D8A1-D599-1D3C-599FE82FBE84"/>
+<colUsage columnID="1DC71B76-9FC1-174C-E232-2E1D0E4470D6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

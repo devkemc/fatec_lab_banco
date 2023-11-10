@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="hcrs_id" id="CC751D9A-650E-9751-A4C3-7B8154F4E7EF">
+<Column name="crs_id" id="CC751D9A-650E-9751-A4C3-7B8154F4E7EF">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:10:39 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hcrs_nome" id="D55823B5-FD0B-1549-29C5-4E0994001AE7">
+<Column name="crs_nome" id="D55823B5-FD0B-1549-29C5-4E0994001AE7">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:10:39 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -30,7 +30,7 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hcrs_mdl_id" id="58D9F768-9C98-C6E0-4BFE-C36DFFD02212">
+<Column name="crs_mdl_id" id="58D9F768-9C98-C6E0-4BFE-C36DFFD02212">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:10:39 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -40,7 +40,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hcrs_trn_id" id="07D20966-8824-E5F0-CFF6-D8BB05A93644">
+<Column name="crs_trn_id" id="07D20966-8824-E5F0-CFF6-D8BB05A93644">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:10:39 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -50,30 +50,15 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hcrs_dt_entrada" id="D21154A8-DD30-16C7-351B-A4C7F6D8150A">
+<Column name="crs_dt_hist" id="D21154A8-DD30-16C7-351B-A4C7F6D8150A">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:10:39 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="CURSOS_crs_id" id="053F9EFD-CEE8-32C7-D24A-2088F3088C38">
-<createdBy>felip</createdBy>
-<createdTime>2023-10-29 22:59:25 UTC</createdTime>
-<ownerDesignName>bolsas_prouni</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="66410482-816F-EE6E-7E16-0377EC2A4F84" referredColumn="A74751F9-DCED-ED30-AF51-68841E7D3FAB"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -86,16 +71,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="CC751D9A-650E-9751-A4C3-7B8154F4E7EF"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="7B293783-6B68-662B-F764-3EEFD00E7895" name="HCURSOS_CURSOS_FK">
-<createdBy>felip</createdBy>
-<createdTime>2023-10-29 22:59:25 UTC</createdTime>
-<ownerDesignName>bolsas_prouni</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="053F9EFD-CEE8-32C7-D24A-2088F3088C38"/>
+<colUsage columnID="D21154A8-DD30-16C7-351B-A4C7F6D8150A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
