@@ -12,7 +12,7 @@ BEGIN
         :OLD.bnf_sex_id,
         :OLD.bnf_rcs_id, 
         :OLD.bnf_mun_id,
-        (SYSDATE, 'DD-MM-YYYY HH24:MI:SS')
+        SYSDATE
     );
 END;
 
@@ -29,7 +29,7 @@ BEGIN
         :OLD.bsl_ite_id, 
         :OLD.bsl_bnf_id,
         :OLD.bsl_tpb_id, 
-        (SYSDATE, 'DD-MM-YYYY HH24:MI:SS')
+        SYSDATE
     );
 END;
 
@@ -44,7 +44,7 @@ BEGIN
         :OLD.crs_nome, 
         :OLD.crs_mdl_id, 
         :OLD.crs_trn_id, 
-        (SYSDATE, 'DD-MM-YYYY HH24:MI:SS')
+        SYSDATE
     );
 END;
 
@@ -57,7 +57,7 @@ BEGIN
     INSERT INTO HINSTITUICOES_ENSINO values(
         :OLD.ite_id, 
         :OLD.ite_nome, 
-        (SYSDATE, 'DD-MM-YYYY HH24:MI:SS')
+        SYSDATE
     );
 END;
 
@@ -70,7 +70,7 @@ BEGIN
     INSERT INTO HMODALIDADES values(
         :OLD.mdl_id, 
         :OLD.mdl_nome, 
-        (SYSDATE, 'DD-MM-YYYY HH24:MI:SS')
+        SYSDATE
     );
 END;
 
@@ -84,7 +84,7 @@ BEGIN
         :OLD.mun_id, 
         :OLD.mun_nome, 
         :OLD.mun_ufs_id,
-        (SYSDATE, 'DD-MM-YYYY HH24:MI:SS')
+        SYSDATE
     );
 END;
 
@@ -97,7 +97,7 @@ BEGIN
     INSERT INTO HRACAS values(
         :OLD.rcs_id, 
         :OLD.rcs_nome, 
-        (SYSDATE, 'DD-MM-YYYY HH24:MI:SS')
+        SYSDATE
     );
 END;
 
@@ -110,7 +110,7 @@ BEGIN
     INSERT INTO HREGIOES values(
         :OLD.rgs_id, 
         :OLD.rgs_nome, 
-        (SYSDATE, 'DD-MM-YYYY HH24:MI:SS')
+        SYSDATE
     );
 END;
 
@@ -123,7 +123,7 @@ BEGIN
     INSERT INTO HSEXOS values(
         :OLD.sex_id, 
         :OLD.sex_letra, 
-        (SYSDATE, 'DD-MM-YYYY HH24:MI:SS')
+        SYSDATE
     );
 END;
 
@@ -136,7 +136,7 @@ BEGIN
     INSERT INTO HTIPOS_BOLSA values(
         :OLD.tpb_id, 
         :OLD.tpb_nome, 
-        (SYSDATE, 'DD-MM-YYYY HH24:MI:SS')
+        SYSDATE
     );
 END;
 
@@ -149,7 +149,7 @@ BEGIN
     INSERT INTO HTURNOS_CURSO values(
         :OLD.trn_id, 
         :OLD.trn_nome, 
-        (SYSDATE, 'DD-MM-YYYY HH24:MI:SS')
+        SYSDATE
     );
 END;
 
@@ -163,6 +163,6 @@ BEGIN
         :OLD.ufs_id, 
         :OLD.ufs_sigla,
         :OLD.ufs_rgs_id, 
-        (SYSDATE, 'DD-MM-YYYY HH24:MI:SS')
+        SYSDATE
     );
 END;
