@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="hufs_id" id="C2756750-F9EF-8EFC-7F26-5A8CA658C479">
+<Column name="ufs_id" id="C2756750-F9EF-8EFC-7F26-5A8CA658C479">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:25:47 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hufs_sigla" id="71F4B626-A287-C78E-16EC-B862E6530B57">
+<Column name="ufs_sigla" id="71F4B626-A287-C78E-16EC-B862E6530B57">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:25:47 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -30,7 +30,7 @@
 <ownDataTypeParameters>2,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hufs_rgs_id" id="E11413CA-66E5-806B-7E5B-B97D9640AAA2">
+<Column name="ufs_rgs_id" id="E11413CA-66E5-806B-7E5B-B97D9640AAA2">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:25:47 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -40,30 +40,16 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hufs_dt_entrada" id="DAE4487C-5694-976C-5BCC-7A241A7198DB">
+<Column name="ufs_dt_hist" id="DAE4487C-5694-976C-5BCC-7A241A7198DB">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:25:47 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="UFS_ufs_id" id="08F51C44-2EB3-F399-134D-623E290AEC8E">
-<createdBy>felip</createdBy>
-<createdTime>2023-10-29 22:58:54 UTC</createdTime>
-<ownerDesignName>bolsas_prouni</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="D8118764-9B75-38AA-6038-D3DB90EF2EBE" referredColumn="2278978B-A377-3F23-07ED-A738752A8A30"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -76,16 +62,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C2756750-F9EF-8EFC-7F26-5A8CA658C479"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="405CB3BF-7256-1E53-6548-539972638BAD" name="HUFS_UFS_FK">
-<createdBy>felip</createdBy>
-<createdTime>2023-10-29 22:58:54 UTC</createdTime>
-<ownerDesignName>bolsas_prouni</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="08F51C44-2EB3-F399-134D-623E290AEC8E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

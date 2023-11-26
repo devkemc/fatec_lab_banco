@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="hite_id" id="6545FEFB-6C7A-4BA7-9FC9-B307A806B9BD">
+<Column name="ite_id" id="6545FEFB-6C7A-4BA7-9FC9-B307A806B9BD">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:14:08 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hite_nome" id="D10C3D75-0B67-0B38-0ED3-85E940746976">
+<Column name="ite_nome" id="D10C3D75-0B67-0B38-0ED3-85E940746976">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:14:08 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -29,52 +29,28 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hite_dt_entrada" id="F7513D94-7003-31E6-6CF8-C9B7A3C1E627">
+<Column name="ite_dt_hist" id="F7513D94-7003-31E6-6CF8-C9B7A3C1E627">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:14:08 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="INSTITUICOES_ENSINO_ite_id" id="466A37A4-CD3F-F861-5BA0-4F417D5222F2">
-<createdBy>felip</createdBy>
-<createdTime>2023-10-29 22:59:37 UTC</createdTime>
-<ownerDesignName>bolsas_prouni</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="04224104-8427-3375-08CA-EB3BFE1346D2" referredColumn="34FE1804-5996-CE0C-32DB-DDECE35345D8"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D03DCD74-E1BA-6864-373B-4ECAFB7CA141" name="HINSTITUICOES_ENSINO_PK">
-<createdBy>felip</createdBy>
-<createdTime>2023-10-29 22:14:08 UTC</createdTime>
+<ind_PK_UK id="F25039FE-3F3E-214B-4BEB-74F65220564F" name="HINSTITUICOES_ENSINO_PK">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-11-10 00:21:58 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
+<colUsage columnID="F7513D94-7003-31E6-6CF8-C9B7A3C1E627"/>
 <colUsage columnID="6545FEFB-6C7A-4BA7-9FC9-B307A806B9BD"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="4B9081DE-BC65-FE84-A631-3D13E1EF3C6B" name="HINSTITUICOES_ENSINO_INSTITUICOES_ENSINO_FK">
-<createdBy>felip</createdBy>
-<createdTime>2023-10-29 22:59:37 UTC</createdTime>
-<ownerDesignName>bolsas_prouni</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="466A37A4-CD3F-F861-5BA0-4F417D5222F2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

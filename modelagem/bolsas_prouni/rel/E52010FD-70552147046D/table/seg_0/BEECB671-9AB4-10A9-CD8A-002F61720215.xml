@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="hbnf_id" id="117D424F-CAD6-2E9B-1548-15471A2AC3F4">
+<Column name="bnf_id" id="117D424F-CAD6-2E9B-1548-15471A2AC3F4">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 19:07:25 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hbnf_cpf" id="8EEFE50F-2022-7F39-DFC3-61E613A6C5B9">
+<Column name="bnf_cpf" id="8EEFE50F-2022-7F39-DFC3-61E613A6C5B9">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 19:07:25 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -30,7 +30,7 @@
 <ownDataTypeParameters>11,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hbnf_dt_nasc" id="2C9D28B9-D649-AE10-C27D-AFAE109015B1">
+<Column name="bnf_dt_nasc" id="2C9D28B9-D649-AE10-C27D-AFAE109015B1">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 19:07:25 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -41,7 +41,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hbnf_deficiente_fisico" id="E8FD5529-A312-681E-B339-714F9A83956A">
+<Column name="bnf_deficiente_fisico" id="E8FD5529-A312-681E-B339-714F9A83956A">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 19:07:25 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -52,7 +52,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hbnf_sex_id" id="4A48BFCE-028E-64CF-BF52-9C936EE8A33C">
+<Column name="bnf_sex_id" id="4A48BFCE-028E-64CF-BF52-9C936EE8A33C">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 19:07:25 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -62,7 +62,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hbnf_rcs_id" id="5492DD83-E3D1-2C77-B85A-F2961225AE36">
+<Column name="bnf_rcs_id" id="5492DD83-E3D1-2C77-B85A-F2961225AE36">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 19:07:25 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -72,7 +72,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hbnf_mun_id" id="643102F6-D199-2EA2-B64D-3536C688DF21">
+<Column name="bnf_mun_id" id="643102F6-D199-2EA2-B64D-3536C688DF21">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 19:07:25 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -82,30 +82,15 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hbnf_dt_entrada" id="72ED2EE8-95CC-2898-94DE-DA7B5A291D64">
+<Column name="bnf_dt_hist" id="72ED2EE8-95CC-2898-94DE-DA7B5A291D64">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 19:07:25 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="BENEFICIARIOS_bnf_id" id="2DE0E744-F0B1-4BAA-C1F8-35935213F713">
-<createdBy>felip</createdBy>
-<createdTime>2023-10-29 22:43:57 UTC</createdTime>
-<ownerDesignName>bolsas_prouni</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="7F4A2040-E844-DD53-5F36-A55B404E0219" referredColumn="9B102A49-4B20-4317-BB2D-E48040219105"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -118,16 +103,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="117D424F-CAD6-2E9B-1548-15471A2AC3F4"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="D49CEF1B-42E5-CB08-6351-F1EE6D21458C" name="HBENEFICIARIOS_BENEFICIARIOS_FK">
-<createdBy>felip</createdBy>
-<createdTime>2023-10-29 22:43:56 UTC</createdTime>
-<ownerDesignName>bolsas_prouni</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="2DE0E744-F0B1-4BAA-C1F8-35935213F713"/>
+<colUsage columnID="72ED2EE8-95CC-2898-94DE-DA7B5A291D64"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

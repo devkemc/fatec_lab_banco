@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="htrn_id" id="6827D4F7-8C60-52A0-4DDF-52F8E0BE9934">
+<Column name="trn_id" id="6827D4F7-8C60-52A0-4DDF-52F8E0BE9934">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:24:18 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="htrn_nome" id="F18C701F-A856-9C4D-44B2-485B16111697">
+<Column name="trn_nome" id="F18C701F-A856-9C4D-44B2-485B16111697">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:24:18 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -30,30 +30,15 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="htrn_dt_entrada" id="BA59BD8E-A7FD-9201-D238-13F08A783D00">
+<Column name="trn_dt_hist" id="BA59BD8E-A7FD-9201-D238-13F08A783D00">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:24:18 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="TURNOS_CURSO_trn_id" id="C466F5DD-2D39-4DF5-FF74-FE6C4F5964C3">
-<createdBy>felip</createdBy>
-<createdTime>2023-10-29 22:59:13 UTC</createdTime>
-<ownerDesignName>bolsas_prouni</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="0EC1BB91-4347-B797-D880-17DE2D0A780F" referredColumn="70D991D2-06CF-B2EA-9FCF-B3E7CD584184"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -66,16 +51,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6827D4F7-8C60-52A0-4DDF-52F8E0BE9934"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="DDF6ECA0-28BE-A6F6-8014-204A0E14B147" name="HTURNOS_CURSO_TURNOS_CURSO_FK">
-<createdBy>felip</createdBy>
-<createdTime>2023-10-29 22:59:13 UTC</createdTime>
-<ownerDesignName>bolsas_prouni</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="C466F5DD-2D39-4DF5-FF74-FE6C4F5964C3"/>
+<colUsage columnID="BA59BD8E-A7FD-9201-D238-13F08A783D00"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

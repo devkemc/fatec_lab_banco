@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="hsex_id" id="A3773316-1704-27B0-1B54-E50065A19E02">
+<Column name="sex_id" id="A3773316-1704-27B0-1B54-E50065A19E02">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:21:24 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -18,7 +18,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hsex_letra" id="98BF7767-3C8A-7A90-2477-F0B9B0F98BAE">
+<Column name="sex_letra" id="98BF7767-3C8A-7A90-2477-F0B9B0F98BAE">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:21:24 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -29,30 +29,15 @@
 <ownDataTypeParameters>2,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hsex_dt_entrada" id="7ED5FCBA-C20F-714D-657C-842165F5DF39">
+<Column name="sex_dt_hist" id="7ED5FCBA-C20F-714D-657C-842165F5DF39">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:21:24 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="SEXOS_sex_id" id="9FD8FC49-3AE9-6191-3ED7-B23B5A105257">
-<createdBy>felip</createdBy>
-<createdTime>2023-10-29 22:59:51 UTC</createdTime>
-<ownerDesignName>bolsas_prouni</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="66D5171E-194F-A550-DA84-12962F732B9F" referredColumn="A8E5CFB4-CDC9-1FB8-A032-55A61F521FE6"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -65,16 +50,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A3773316-1704-27B0-1B54-E50065A19E02"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="C4681A42-7E8D-F69C-5677-B02F0FFA45B9" name="HSEXOS_SEXOS_FK">
-<createdBy>felip</createdBy>
-<createdTime>2023-10-29 22:59:51 UTC</createdTime>
-<ownerDesignName>bolsas_prouni</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="9FD8FC49-3AE9-6191-3ED7-B23B5A105257"/>
+<colUsage columnID="7ED5FCBA-C20F-714D-657C-842165F5DF39"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

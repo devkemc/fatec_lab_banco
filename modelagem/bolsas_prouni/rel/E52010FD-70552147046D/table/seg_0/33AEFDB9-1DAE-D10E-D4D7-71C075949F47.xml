@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="hbsl_id" id="C4CEF21B-6F48-565A-7AEF-DFA7E38F3A39">
+<Column name="bsl_id" id="C4CEF21B-6F48-565A-7AEF-DFA7E38F3A39">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:06:53 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
@@ -18,81 +18,66 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="hbsl_ano" id="7C492C29-F268-70C0-8491-DCDE4B79BA83">
-<createdBy>felip</createdBy>
-<createdTime>2023-10-29 22:06:53 UTC</createdTime>
-<ownerDesignName>bolsas_prouni</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="hbsl_crs_id" id="02A6A804-1B07-B3B7-3041-73A787FB0E52">
-<createdBy>felip</createdBy>
-<createdTime>2023-10-29 22:06:53 UTC</createdTime>
-<ownerDesignName>bolsas_prouni</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="hbsl_ite_id" id="10CCFDA2-0773-A0E4-2E0B-09EAF40128D9">
-<createdBy>felip</createdBy>
-<createdTime>2023-10-29 22:06:53 UTC</createdTime>
-<ownerDesignName>bolsas_prouni</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="hbsl_bnf_id" id="574708DF-E12D-FA27-5650-383679DBE91D">
-<createdBy>felip</createdBy>
-<createdTime>2023-10-29 22:06:53 UTC</createdTime>
-<ownerDesignName>bolsas_prouni</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="hbsl_tpb_id" id="8AF35688-EA28-4CC2-0194-8BEA3CD72EF9">
-<createdBy>felip</createdBy>
-<createdTime>2023-10-29 22:06:53 UTC</createdTime>
-<ownerDesignName>bolsas_prouni</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="hbsl_dt_entrada" id="03341E20-EC14-5062-6DDF-0B7C96E9ECD6">
+<Column name="bsl_ano" id="7C492C29-F268-70C0-8491-DCDE4B79BA83">
 <createdBy>felip</createdBy>
 <createdTime>2023-10-29 22:06:53 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="BOLSAS_bsl_id" id="230B6478-532D-CC4C-266B-FB9BECAE2415">
+<Column name="bsl_crs_id" id="02A6A804-1B07-B3B7-3041-73A787FB0E52">
 <createdBy>felip</createdBy>
-<createdTime>2023-10-29 22:59:30 UTC</createdTime>
+<createdTime>2023-10-29 22:06:53 UTC</createdTime>
 <ownerDesignName>bolsas_prouni</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="0951D648-446F-114F-751F-E71C11E05E51" referredColumn="1D79B594-8AF7-DD6B-BB47-186C684D3868"/>
-</associations>
+</Column>
+<Column name="bsl_ite_id" id="10CCFDA2-0773-A0E4-2E0B-09EAF40128D9">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:06:53 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bsl_bnf_id" id="574708DF-E12D-FA27-5650-383679DBE91D">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:06:53 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bsl_tpb_id" id="8AF35688-EA28-4CC2-0194-8BEA3CD72EF9">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:06:53 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bsl_dt_hist" id="03341E20-EC14-5062-6DDF-0B7C96E9ECD6">
+<createdBy>felip</createdBy>
+<createdTime>2023-10-29 22:06:53 UTC</createdTime>
+<ownerDesignName>bolsas_prouni</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -105,16 +90,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C4CEF21B-6F48-565A-7AEF-DFA7E38F3A39"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="A6906B77-F9A6-2BE2-51C5-0998514658C4" name="HBOLSAS_BOLSAS_FK">
-<createdBy>felip</createdBy>
-<createdTime>2023-10-29 22:59:30 UTC</createdTime>
-<ownerDesignName>bolsas_prouni</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="230B6478-532D-CC4C-266B-FB9BECAE2415"/>
+<colUsage columnID="03341E20-EC14-5062-6DDF-0B7C96E9ECD6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
