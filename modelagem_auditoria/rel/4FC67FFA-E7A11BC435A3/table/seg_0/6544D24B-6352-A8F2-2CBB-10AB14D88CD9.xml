@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6544D24B-6352-A8F2-2CBB-10AB14D88CD9" name="AUDITORIA">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-11-26 20:48:45 UTC</createdTime>
+<ownerDesignName>modelagem_auditoria</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="aud_id" id="57CC09C2-3E9F-1224-D2B8-824C2C06AC51">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-11-26 20:52:58 UTC</createdTime>
+<ownerDesignName>modelagem_auditoria</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aud_registro_id" id="B1F408EB-41E8-F4C6-A6E8-F1D6845321F0">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-11-26 20:52:58 UTC</createdTime>
+<ownerDesignName>modelagem_auditoria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aud_data" id="79D4ABED-AA91-89A0-7F93-C4C6A80C677F">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-11-26 20:52:58 UTC</createdTime>
+<ownerDesignName>modelagem_auditoria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>DOM2025100</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aud_nome_tabela" id="0DF03F14-4518-BBA8-009E-7633696A90B7">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-11-26 20:52:58 UTC</createdTime>
+<ownerDesignName>modelagem_auditoria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aud_nome_coluna" id="784C6209-2E36-5EA6-0A12-C6BAB687242C">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-11-26 20:57:31 UTC</createdTime>
+<ownerDesignName>modelagem_auditoria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aud_operacao" id="826D3885-537B-EDE3-2CCE-1DDA2000A15C">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-11-26 20:57:31 UTC</createdTime>
+<ownerDesignName>modelagem_auditoria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aud_val_antigo" id="F4B14C82-8085-2021-8DD4-A340F1F4948F">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-11-26 20:57:31 UTC</createdTime>
+<ownerDesignName>modelagem_auditoria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aud_val_novo" id="E849DA0F-D52F-8A6B-EB5B-2190A79D8671">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-11-26 20:57:31 UTC</createdTime>
+<ownerDesignName>modelagem_auditoria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aud_usuario_bd" id="9B9DBABB-8288-9F30-7034-82B6D25EFC80">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-11-26 20:57:31 UTC</createdTime>
+<ownerDesignName>modelagem_auditoria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aud_usuario_so" id="8B217B60-8E2A-13A5-F148-8FF0399D6FDC">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-11-26 20:57:31 UTC</createdTime>
+<ownerDesignName>modelagem_auditoria</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E4205CA-5D00-E61E-5B6C-AC579FD1B593" name="AUDITORIA_PK">
+<createdBy>kennedy</createdBy>
+<createdTime>2023-11-26 20:52:58 UTC</createdTime>
+<ownerDesignName>modelagem_auditoria</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57CC09C2-3E9F-1224-D2B8-824C2C06AC51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
